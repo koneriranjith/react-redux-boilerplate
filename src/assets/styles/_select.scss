@@ -1,0 +1,50 @@
+// Default state
+.select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: white;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  padding: 0 13px;
+  width: 100%;
+  font-size: 1.3rem;
+  border: 0.5px solid $color-grey;
+  &:focus {
+    // color: $color-black;
+    outline: none;
+  }
+  // Hack for IE 11+
+  &::-ms-expand {
+    display: none;
+  }
+}
+.select-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 200px;
+  // Dropdown icon
+  &::after {
+    color: $color-black;
+    content: "▾";
+    margin-right: 1rem;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    bottom: -4px;
+    font-size: 2rem;
+  }
+  .label {
+    font-weight: $font-weight-thick;
+    font-size: $font-size-mini;
+    color: $color-grey;
+    margin-right: 0.7rem;
+    white-space: nowrap;
+  }
+  &.has-error {
+    border-color: $color-danger;
+    margin-bottom: 0.4rem;
+  }
+}

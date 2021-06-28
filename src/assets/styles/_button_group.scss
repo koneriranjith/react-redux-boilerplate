@@ -1,0 +1,35 @@
+.btn-action-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    margin-right: 7px;
+    text-transform: capitalize;
+    padding: 4px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .btn-reset {
+    background-color: $button-reset-bg;
+    color: $color-black;
+  }
+  .btn-recompute {
+    background-color: $button-recompute-bg;
+    color: $color-white;
+  }
+  .btn-update {
+    background-color: $button-update-bg;
+    color: $color-white;
+  }
+}
+button:active {
+  transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  -o-transform: translateY(2px);
+}
+button:disabled {
+  transform: none;
+  cursor: not-allowed;
+}

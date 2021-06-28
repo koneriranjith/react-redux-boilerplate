@@ -1,0 +1,87 @@
+.rc-modal {
+  .rc-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #ccccccbd;
+    z-index: 9;
+  }
+  .rc-modal-container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 9;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 500px;
+    height: 30px;
+    background: #037e8d;
+    color: $color-white;
+  }
+  .body {
+    background: #f8fcfdfc;
+    min-height: 200px;
+  }
+}
+// entity body modal
+.entity-body-info {
+  .label {
+    margin-right: 1rem;
+    font-weight: $font-weight-thick;
+    font-size: $font-size-mini;
+    color: $color-grey;
+    b {
+      font-weight: $font-weight-thick;
+      font-size: $font-size-small;
+      color: $color-black;
+    }
+  }
+}
+// computation-modal
+.computation-modal {
+  .header {
+    min-width: 420px !important;
+  }
+  .forecast-body-info {
+    padding: 20px;
+    .section {
+      padding-bottom: 7px;
+      .label {
+        min-width: 50%;
+        text-align: end;
+        margin-right: 1rem;
+        font-weight: $font-weight-thick;
+        font-size: $font-size-mini;
+        color: $color-grey;
+      }
+      .value {
+        margin-left: 20px;
+        font-size: $font-size-small;
+        color: $color-black;
+      }
+      .level {
+        color: $button-recompute-bg;
+        font-weight: $font-weight-bold;
+      }
+      .cost {
+        font-weight: $font-weight-bold;
+      }
+    }
+  }
+}
+
+// forecast-modal
+.forecast-modal {
+  .header {
+    min-width: 620px !important;
+  }
+}

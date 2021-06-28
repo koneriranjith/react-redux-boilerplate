@@ -1,0 +1,46 @@
+.forecast-card {
+  background-color: $filter-background;
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    .sc-label {
+      margin: 0;
+      margin-right: 0.7rem;
+      font-weight: $font-weight-thick;
+      font-size: $font-size-mini;
+      color: $color-grey;
+    }
+    .sc-value {
+      font-weight: $font-weight-thick;
+      font-size: $font-size-small;
+      color: $color-black;
+      margin: 0;
+    }
+    .quantity {
+      color: $filter-link-color;
+    }
+    .status {
+      color: $filter-status-color;
+      margin-left: 7px;
+    }
+    .percentage {
+      font-weight: $font-weight-bold;
+    }
+  }
+  .range-section {
+    .field-input {
+      font-weight: $font-weight-thick;
+      font-size: $font-size-small;
+      color: $color-grey;
+      margin: 0;
+      border: 0.5px solid $color-grey;
+      &:focus {
+        outline: none;
+      }
+    }
+    .field-range {
+    }
+  }
+}

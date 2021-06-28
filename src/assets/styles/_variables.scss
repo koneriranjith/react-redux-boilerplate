@@ -1,0 +1,162 @@
+$base-font-size: 1.6rem;
+$base-line-height: 1.7;
+$zero: 0;
+
+//Border-width
+$border-width-micro: 0.1rem;
+$border-width-mini: 0.2rem;
+$border-width-small: 0.3rem;
+$border-width-base: 0.4rem;
+$border-width-medium: 0.6rem;
+$border-width-large: 0.8rem;
+
+// Border radius
+$box-radius-small: 0.2rem;
+$box-radius-base: 0.4rem;
+$box-radius-large: 0.8rem;
+$box-radius-circle: 50%;
+
+//row size
+$row-height: 5rem;
+
+// logo dimens
+$logo-width: 8.6rem;
+$logo-height: 4rem;
+
+//header and sidenav dimensions
+$head-height: 6.4rem;
+$sidenav-width: 25.6rem;
+
+//Size for icon link
+$icon-size: 4rem;
+$config-icon-size: 5.6rem;
+
+// Fonts
+$font-family: "Tahoma", sans-serif;
+
+// Font sizes
+$font-size-micro: 1rem;
+$font-size-mini: 1.2rem;
+$font-size-small: 1.4rem;
+$font-size-default: 1.6rem;
+$font-size-medium: 1.8rem;
+$font-size-large: 2rem;
+$font-size-big: 2.4rem;
+$font-size-bigger: 3rem;
+$font-size-mega: 3.4rem;
+
+
+// spaces
+$space-zero: 0;
+$space-micro-micro: 0.02rem;
+$space-half-micro: 0.1rem;
+$space-micro: 0.2rem;
+$space-smaller: 0.4rem;
+$space-small: 0.8rem;
+$space-one: 1rem;
+$space-slab: 1.2rem;
+$space-normal: 1.6rem;
+$space-medium: 2.4rem;
+$space-large: 3.2rem;
+$space-larger: 4.8rem;
+$space-jumbo: 6.4rem;
+$space-mega: 8rem;
+$space-giant: 10rem;
+
+// z-indexes
+$z-index-0: 0;
+
+$z-index-1: 1000;
+$z-index-1-1: 1010;
+$z-index-1-2: 1020;
+$z-index-1-3: 1030;
+
+$z-index-2: 2000;
+$z-index-2-1: 2010;
+$z-index-2-2: 2020;
+$z-index-2-3: 2030;
+
+$z-index-3: 3000;
+$z-index-3-1: 3010;
+$z-index-3-2: 3020;
+$z-index-3-3: 3030;
+
+$z-index-4: 4000;
+$z-index-4-1: 4010;
+$z-index-4-2: 4020;
+$z-index-4-3: 4030;
+
+$z-index-5: 5000;
+$z-index-5-1: 5010;
+$z-index-5-2: 5020;
+$z-index-5-3: 5030;
+
+// font-weight
+$font-weight-feather: 100;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-thick: 500;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+// Form
+$form-input-height: 4.2rem;
+$form-input-height--large: 6.4rem;
+$form-input-height--medium: 5.5.0rem;
+$form-input-height--small: 4rem;
+$form-radio-height: 2rem;
+
+// Device sizes
+$phone-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+
+
+// utils
+.w-10 {
+  width: 10% !important;
+}
+.w-15 {
+  width: 15% !important;
+}
+.w-20 {
+  width: 20% !important;
+}
+.w-30 {
+  width: 30% !important;
+}
+.w-35 {
+  width: 35% !important;
+}
+.w-40 {
+  width: 40% !important;
+}
+.w-45 {
+  width: 45% !important;
+}
+.w-55 {
+  width: 55% !important;
+}
+.w-60 {
+  width: 60% !important;
+}
+.w-65 {
+  width: 65% !important;
+}
+.w-70 {
+  width: 70% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+.w-85 {
+  width: 85% !important;
+}
+.w-90 {
+  width: 90% !important;
+}
+.mw-0 {
+  max-width: 0 !important;
+}

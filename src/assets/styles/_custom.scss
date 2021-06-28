@@ -1,0 +1,17 @@
+.core-icon-button {
+  padding: 0 0.5rem;
+  margin: 0;
+  font-size: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  border-radius: 5px;
+  background-color: $computation-header-bg;
+  outline: none;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  i {
+    font-size: 1.2rem;
+    background-color: $computation-header-bg;
+  }
+}

@@ -1,0 +1,166 @@
+$color-white: #FFFFFF;
+$color-black: #000000;
+$body-bg: #ccc;
+$text-primary-color: #434343;
+$text-secondary-color: #636363;
+
+// filter
+$filter-text-lable: $text-secondary-color;
+$filter-text: $color-black;
+$filter-background: #ebf9ff;
+$filter-link-color: #0063af;
+$filter-status-color: #4caf50;
+$filter-range-from:#ff8d27;
+$filter-range-to: #34b258;
+
+// computation section
+$computation-header-bg: #eaeaea;
+$computation-header-title: #434343;
+$computation-header-lable: $text-secondary-color;
+$computation-header-data: $color-black;
+// computation grid header
+
+$computation-grid-border-color: #d0d3d4;
+$computation-grid-header-color: $color-black;
+$computation-grid-primary-color: $color-black;
+$computation-grid-secondary-color: $color-black;
+$computation-grid-alternative-row-color: #f6f6f6;
+
+// action color button
+
+$button-recompute-bg: #2da43e;
+$button-recompute-text: $color-white;
+$button-reset-bg: #e0e0e0;
+$button-reset-text: #000000;
+$button-update-bg: #2da43e;
+$button-update-text: $color-white;
+
+$button-float-bg: #037e8d;
+$button-float-stroke: #b2b2b2;
+$button-float-unselect-bg: #d7d7d7;
+$button-float-unselect-text: #262626;
+
+// tabs
+$tab-border-color: #d4d4d4;
+$tab-select-stroke :rgba(255, 255, 255, 0.5);
+$tab-float-bg: #bc88e1;
+$tab-demand-bg: #eda00c;
+$tab-history-bg: #ff7372;
+$tab-utilization-bg: #2bc19f;
+$tab-costs-bg: #4f9dec;
+$tab-scrap-bg: #f371b5;
+$tab-unselect-bg: $color-white;
+$tab-unselect-stroke :rgba(212, 212, 212, 0.5);
+
+$tab-inner-selected-color: #037e8d;
+$tab-inner-unselected-color: #d7d7d7;
+$tab-inner-font-color: #262626;
+
+
+// chart
+
+$chart-bar-color: #73b1f1;
+$chart-line-color: #3ece88;
+$chart-bar-dark-color: #6c7589;
+$chart-line-dark-color: #f65d81;
+
+
+
+// font colors
+$color-heading: $color-black;
+$color-body: #697592;
+$color-title: #19233c;
+$color-silver: #798091;
+$color-grey: #8c8ea7;
+$color-grey-light: #cacdd4;
+
+//brand colors
+$color-primary: #0278f8;
+$color-secondary: #1d7dd7;
+$color-secondary-semi: #8dbeeb;
+$color-highlight: #f3f8ff;
+
+//Shadow
+$color-shadow: lighten($color-heading, 50%);
+$color-card-shadow: rgba(62, 57, 107, 0.07);
+
+// border colors
+$color-border: #e5e6eb;
+$color-border-light: #eeeff2;
+$color-border-lighter: #cecfe0;
+$color-border-input: #e5e6eb;
+$color-border-green: #34aa44;
+$color-border-red: #d50034;
+
+// special colors
+$color-danger: #e03e3e;
+$color-warning: #eaa916;
+$color-success: #1bb165;
+$color-green: #34aa44;
+$color-red: #d50034;
+
+
+// translucent color
+//$color-bg-white-translucent: rgba(255, 255, 255, 0.9);
+
+// tooltip color
+$tooltip-color: #646567;
+$tooltip-text-color: #ffffff;
+
+// download button
+// $download-bg-color: #f4f6f8;
+
+/*
+*     Font clasees
+*/
+
+.forecast-bg {
+  background-color: $filter-background;
+}
+.bg-color-transparent{
+  background-color: transparent !important;
+}
+
+
+.color-primary {
+  color: $color-primary;
+}
+
+.color-white {
+  color: $color-white;
+}
+.color-black {
+  color: $color-black;
+}
+.color-secondary {
+  color: $color-secondary;
+}
+
+.color-heading {
+  color: $color-heading;
+}
+.color-body {
+  color: $color-body;
+}
+.color-silver {
+  color: $color-silver;
+}
+
+.color-danger {
+  color: $color-danger;
+}
+.color-warning {
+  color: $color-warning;
+}
+.color-success {
+  color: $color-success;
+}
+.color-green {
+  color: $color-green;
+}
+.color-red {
+  color: $color-red;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}

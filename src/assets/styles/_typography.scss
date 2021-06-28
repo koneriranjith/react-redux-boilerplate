@@ -1,0 +1,70 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background: $body-bg;
+  font-family: $font-family;
+  font-size: $base-font-size;
+  font-weight: $font-weight-light;
+  line-height: $base-line-height;
+  color: $text-primary-color;
+  padding: $space-small;
+}
+.no-sroll{
+  overflow: hidden;
+}
+#root {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family;
+  font-weight: $font-weight-bold;
+  color: $color-heading;
+}
+
+h1.h1-primary {
+  text-transform: uppercase;
+  color: $color-primary;
+}
+
+h1 {
+  margin-top: $space-normal;
+  margin-bottom: $space-medium;
+}
+
+h4.h4-bordered {
+  padding: 0.8rem 0;
+  margin-bottom: 1.6rem;
+  border-bottom: 1px solid #eeeff2;
+}
+
+//@at-root
+.rc-header {
+  font-size: $font-size-mini;
+  font-weight: $font-weight-feather;
+  color: $text-primary-color;
+  background-color: $computation-header-bg;
+}
+.rc-header-title {
+  font-size: $font-size-mini;
+  font-weight: $font-weight-bold;
+  color: $text-primary-color;
+}
+.rc-computation-header-primary {
+  font-size: $font-size-mini;
+  font-weight: $font-weight-feather;
+  color: $text-primary-color;
+  background-color: $computation-header-bg;
+}
+.computation-header-secondary {
+  font-size: $font-size-micro;
+  font-weight: $font-weight-feather;
+  color: $text-secondary-color;
+}

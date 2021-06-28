@@ -1,0 +1,25 @@
+.table-group-pagination {
+  width: 100%;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: $font-size-mini;
+  font-weight: $font-weight-feather;
+  color: $text-primary-color;
+  background-color: $computation-header-bg;
+  border-top: 0.1rem solid $computation-grid-border-color;
+  border-right: 0.1rem solid $computation-grid-border-color;
+  border-left: 0.1rem solid $computation-grid-border-color;
+  .icon {
+    i {
+      font-size: 1.7rem;
+    }
+  }
+  .header-item {
+  }
+  cursor: pointer;
+  div:nth-child(2) {
+    font-weight: bold;
+  }
+}

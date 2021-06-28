@@ -1,0 +1,24 @@
+.rc-card {
+  margin-top: 0.3rem;
+  background-color: $color-white;
+  padding: 1.5rem;
+}
+
+.rc-cc-card {
+  border: 0.1rem solid $computation-grid-border-color;
+  .rc-cc-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $computation-header-bg;
+    padding: 0.6rem;
+    border-top: 0.1rem solid $computation-grid-border-color;
+    border-right: 0.1rem solid $computation-grid-border-color;
+    border-left: 0.1rem solid $computation-grid-border-color;
+    .header-title {
+      margin: 0;
+      display: inline-block;
+      white-space: nowrap;
+    }
+  }
+}

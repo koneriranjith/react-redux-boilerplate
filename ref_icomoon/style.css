@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1q566k');
+  src:  url('fonts/icomoon.eot?1q566k#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1q566k') format('truetype'),
+    url('fonts/icomoon.woff?1q566k') format('woff'),
+    url('fonts/icomoon.svg?1q566k#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cost_select_ic:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-cost_unselect_ic:before {
+  content: "\e901";
+  color: #4f9dec;
+}
+.icon-demandforecast_select_ic:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-demandforecast_unselect_ic:before {
+  content: "\e903";
+  color: #eda00c;
+}
+.icon-edit_ic .path1:before {
+  content: "\e904";
+  color: rgb(2, 174, 196);
+}
+.icon-edit_ic .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-floatquantity_select_ic:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-floatquantity_unselect_ic:before {
+  content: "\e907";
+  color: #bc88e1;
+}
+.icon-history_select_ic:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-history_unselect_ic:before {
+  content: "\e909";
+  color: #ff7372;
+}
+.icon-info_ic:before {
+  content: "\e90a";
+  color: #ff9500;
+}
+.icon-scrap_select_ic:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-scrap_unselect_ic:before {
+  content: "\e90c";
+  color: #f371b5;
+}
+.icon-utilization_select_ic:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-utilization_unselect_ic:before {
+  content: "\e90e";
+  color: #2bc19f;
+}
+.icon-enlarge:before {
+  content: "\e989";
+}
+.icon-shrink:before {
+  content: "\e98a";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-minus:before {
+  content: "\ea0b";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-circle-up:before {
+  content: "\ea41";
+}
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-circle-down:before {
+  content: "\ea43";
+}
+.icon-circle-left:before {
+  content: "\ea44";
+}
+.icon-paragraph-justify:before {
+  content: "\ea7a";
+}
+.icon-share:before {
+  content: "\ea7d";
+}

@@ -1,0 +1,77 @@
+.custom-tabs {
+  .tabs {
+    // padding: $space-normal $space-medium;
+    .tab-list {
+      display: inline-flex;
+      // border: $border-width-micro solid $color-border;
+      align-items: center;
+      background-color: white;
+      width: 100%;
+    }
+    .tab {
+      position: relative;
+      width: 21rem;
+      height: 5rem;
+      // margin: $space-zero $space-normal;
+      // margin-right: $space-large;
+
+      font-weight: $font-weight-thick;
+      line-height: 4rem;
+      letter-spacing: normal;
+      // text-transform: uppercase;
+      font-size: $font-size-mini;
+      color: $text-primary-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+
+      cursor: pointer;
+      i {
+        font-size: 2.5rem;
+      }
+      .icon-right-strock {
+        height: 21px;
+        border-left: 1px solid $text-primary-color;
+        margin: 0 10px;
+      }
+
+      &.active {
+        // border-radius: 3.0rem;
+        // margin: 0;
+        // padding: 0 $space-normal;
+        line-height: 4rem;
+        color: $color-white;
+        background-color: $color-primary;
+        &::after {
+          display: none;
+        }
+        .icon-right-strock {
+          border-left: 1px solid $tab-select-stroke;
+        }
+        i::before {
+          color: $color-white;
+        }
+      }
+
+      &.active.bg-float-active {
+        background-color: $tab-float-bg;
+      }
+      &.active.bg-demand-active {
+        background-color: $tab-demand-bg;
+      }
+      &.active.bg-history-active {
+        background-color: $tab-history-bg;
+      }
+      &.active.bg-utilization-active {
+        background-color: $tab-utilization-bg;
+      }
+      &.active.bg-costs-active {
+        background-color: $tab-costs-bg;
+      }
+      &.active.bg-scrap-active {
+        background-color: $tab-scrap-bg;
+      }
+    }
+  }
+}

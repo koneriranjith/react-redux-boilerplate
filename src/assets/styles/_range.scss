@@ -1,0 +1,116 @@
+//   range start
+input[type="range"] {
+    -webkit-appearance: none;
+    margin: 0 0;
+    width: 150px;
+  }
+  input[type="range"]:focus {
+    outline: none;
+  }
+  input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    animate: 0.2s;
+    background-image: linear-gradient(
+      to right,
+      $filter-range-from,
+      $filter-range-to
+    );
+    border-radius: 1.3px;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: 8px;
+  }
+  input[type="range"]:focus::-webkit-slider-runnable-track {
+    background-image: linear-gradient(
+      to right,
+      $filter-range-from,
+      $filter-range-to
+    );
+  }
+  input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    animate: 0.2s;
+    background-image: linear-gradient(
+      to right,
+      $filter-range-from,
+      $filter-range-to
+    );
+    border-radius: 1.3px;
+  }
+  input[type="range"]::-moz-range-thumb {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  input[type="range"]::-ms-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    animate: 0.2s;
+    background-image: linear-gradient(
+      to right,
+      $filter-range-from,
+      $filter-range-to
+    );
+    border-radius: 1.3px;
+  }
+  input[type="range"]::-ms-fill-lower {
+    background-image: linear-gradient(
+      to right,
+      $filter-range-from,
+      $filter-range-to
+    );
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+  }
+  input[type="range"]::-ms-fill-upper {
+    background-image: linear-gradient(
+      to right,
+      $filter-range-from,
+      $filter-range-to
+    );
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  }
+  input[type="range"]::-ms-thumb {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: 8px;
+  }
+  input[type="range"]:focus::-ms-fill-lower {
+    background-image: linear-gradient(
+      to right,
+      $filter-range-from,
+      $filter-range-to
+    );
+  }
+  input[type="range"]:focus::-ms-fill-upper {
+    background-image: linear-gradient(
+      to right,
+      $filter-range-from,
+      $filter-range-to
+    );
+  }
+
+  // range end
